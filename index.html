@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+      <sectoin class="container login-container">
+        <header class="header">Авторизоваться</header>
+          <div class="authorise">
+             <form action="/" class="form-authorise">
+               <h2 class="form-authorise__title">Авторизуйтесь</h2>
+               <div class="rectangle"></div>
+                <div class="form-authorise__coloumn">
+                    <div class="form-authorise__row">
+                        <span class="img">
+                            <img src="./images/login.png" alt="login" class="img-icon">
+                        </span>
+                       <span>Логин</span>
+                    </div>
+                    <div class="form-authorise__row">
+                        <span class="img">
+                            <img src="./images/password.png" alt="pass" class="img-icon">
+                        </span>
+                        <span>Пароль</span> 
+                    </div>
+                </div>
+                        <div class="form-authorise__check">
+                            <input type="checkbox" name="human" value="human" id="human" class="form-authorise__input_checkbox" checked="">
+                            <label for="human" class="form-authorise__label form-authorise__label_type_checkbox">Я человек</label>
+                        </div>
+                        <h4 class="form-authorise__label">Вы точно не робот?</h4>
+                            <div class="form-authorise__block">
+                                <div class="form-authorise__box">
+                                    <input type="radio" name="yes" value="agree" id="agree" class="form-authorise__input_radio" checked="">
+                                    <label for="agree" class="form-authorise__label form-authorise__label_type_radio">Да</label>
+                                </div>
+                                <div class="form-authorise__box">
+                                    <input type="radio" name="yes" value="disagree" id="disagree" class="form-authorise__input_radio">
+                                    <label for="disagree" class="form-authorise__label form-authorise__label_type_radio">Не уверен</label>
+                                </div>
+                            </div>        
+            </form>    
+                   
+            <div class="button">
+                <button class="btn btn-home">На главную</button>
+                <button class="btn btn-login">Войти</button>
+            </div>
+      <div class="footer">© Владимир Астахов | создано с любовью в LoftSchool | 2016</div>
+          </div>
+      </sectoin>
+  </div>
+</body>
+</html>

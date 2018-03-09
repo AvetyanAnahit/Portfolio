@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "FontAwesome" ;
+    src: url("./Fonts/FontAwesome.eot") format("eot"),
+    url("./Fonts/FontAwesome.svg") format("svg"),
+    url("./Fonts/FontAwesome.woff") format("woff"),
+    url("./Fonts/FontAwesome.ttf") format("ttf");
+
+}
+
+@font-face{
+    font-family: "SansusWebissimo" ;
+    src: url("./Fonts/SansusWebissimo.eot") format("eot"),
+    url("./Fonts/SansusWebissimo.svg") format("svg"),
+    url("./Fonts/SansusWebissimo.woff") format("woff"),
+    url("./Fonts/SansusWebissimo.ttf") format("ttf");
+
+}
+
+@font-face{
+    font-family: "Roboto-Bold";
+    src: url("./Fonts/Roboto-Bold.ttf") format("ttf"),
+    url("./Fonts/Roboto-BoldItalic.ttf") format("ttf"),
+    url("./Fonts/Roboto-Italic.ttf") format("ttf");
+}
+
+@font-face{
+    font-family: "Roboto-Light";
+    src:  url("./Fonts/Roboto-Light.ttf") format("ttf"),
+    url("./Fonts/Roboto-LightItalic.ttf") format("ttf");
+}
+
+@font-face{
+    font-family: "Roboto-Medium";
+    src:  url("./Fonts/Roboto-Medium.ttf") format("ttf"),
+    url("./Fonts/Roboto-MediumItalic.ttf") format("ttf");
+
+}
+
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src:   url("./Fonts/Roboto-Regular.ttf") format("ttf");
+}

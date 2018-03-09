@@ -1,0 +1,17 @@
+.header {
+    width: 180px;
+    height: 45px;
+    border-radius: 21px;
+    font-family:  "Roboto-Medium";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    display: block;
+    right: -1000px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding-top: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}

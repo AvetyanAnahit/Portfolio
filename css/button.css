@@ -1,0 +1,40 @@
+/* button & footer */
+
+
+.button {
+    width: 23.75rem;
+    display: flex;
+}
+
+.btn {
+    width: 190px;
+    height: 2.8125rem;
+    background: #629055;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  
+}
+
+.btn:first-child {
+    border-right: 0.125rem solid #9eb79d;
+}
+
+.button-item {
+    height: 46px;
+}
+.button-item:first-child {
+    width: 154px;
+}
+.button-item:last-child {
+    width: 100px;
+    border-left: 0.125rem solid #9eb79d;
+}
+
+.footer {
+    display: flex;
+    width: 455px;
+    margin-bottom: 43px;
+    margin-top: 93px;
+    margin-left: -26px;
+}

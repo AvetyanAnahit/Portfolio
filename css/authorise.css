@@ -1,0 +1,121 @@
+
+.authorise {
+    width: 23.75rem;
+    height: 26.6875rem;
+    color: #ffffff;
+    position: absolute;
+    left: 34%;
+    top: 21%;
+    background: #203823;
+    opacity: .8;
+ 
+}
+
+.img {
+    background: #f0efe9;
+    width: 45px;
+    height: 45px;
+    display: inline-grid;
+    border-radius:2.9375rem;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.img-icon {
+   margin: 14px;
+}
+
+.rectangle {
+    width: 90px;
+    height: 3px;
+    background: #ffffff;
+    margin-left: 140px;
+    margin-bottom: 25px;
+}
+
+.form-authorise__title {
+    font-size: 1.625rem;
+    font-family: "SansusWebissimo";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-authorise__coloumn {
+    width: 21.25rem;
+   
+}
+
+.form-authorise__row {
+    height: 2.8125rem;
+    position: relative;
+    background: #ffffff;
+    border-radius: 2.9375rem;
+    margin-bottom: 1.25rem;
+    left: 1.25rem;
+    color: #b5b8b9;
+    font-family: "Roboto-Regular" 16px;
+}
+
+.form-authorise__label {
+    text-align: center;
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+}
+
+.form-authorise__check {
+    flex: 1;
+    margin-left: 8.5625rem;
+}
+
+.form-authorise__input_checkbox{
+    font-family:  "Roboto-Regular";
+}
+
+.form-authorise__block {
+    display: flex;
+    margin-left: 7.25rem;
+    font-family: "Roboto-Regular";
+ 
+}
+
+/* .form-authorise__block {
+   
+} */
+
+.form-authorise__box {
+    margin-right: 2.5rem;
+    margin-bottom: 25px;
+}
+
+
+
+.form-authorise__label_type_radio:before {
+    content: '';
+    vertical-align: middle;
+    width: 7px;
+    height: 7px;
+    border-radius: 3.125rem;
+    display: inline-block;
+    background-color: #6c9c5a;
+    margin-right: 0.625rem;
+}
+
+.form-authorise__input_radio{
+    width: 20px;
+    height: 20px;
+}
+
+.form-authorise__label_type_radio:after {
+    content: '';
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    top: 0.5625rem;
+    left: 0.25rem;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .3s linear;
+    background-color: #6c9c5a;
+    
+}
