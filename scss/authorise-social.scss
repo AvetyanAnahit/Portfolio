@@ -1,0 +1,17 @@
+
+.authorise-social {
+    display: flex;
+}
+
+.authorise-social__list {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+
+}
+
+.authorise-social__item:hover {
+    background: #4e8839;
+}

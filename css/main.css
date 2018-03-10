@@ -1,39 +1,250 @@
-@import "fonts.css";
-@import "header.css";
-@import "authorise.css";
-@import "button.css";
-@import "normalize.css";
-@import "styles.css";
+@font-face {
+  font-family: "FontAwesome";
+  src: url("./Fonts/FontAwesome.eot") format("eot"), url("./Fonts/FontAwesome.svg") format("svg"), url("./Fonts/FontAwesome.woff") format("woff"), url("./Fonts/FontAwesome.ttf") format("ttf"); }
 
+@font-face {
+  font-family: "SansusWebissimo";
+  src: url("./Fonts/SansusWebissimo.eot") format("eot"), url("./Fonts/SansusWebissimo.svg") format("svg"), url("./Fonts/SansusWebissimo.woff") format("woff"), url("./Fonts/SansusWebissimo.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./Fonts/Roboto-Bold.ttf") format("ttf"), url("./Fonts/Roboto-BoldItalic.ttf") format("ttf"), url("./Fonts/Roboto-Italic.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./Fonts/Roboto-Light.ttf") format("ttf"), url("./Fonts/Roboto-LightItalic.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./Fonts/Roboto-Medium.ttf") format("ttf"), url("./Fonts/Roboto-MediumItalic.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./Fonts/Roboto-Regular.ttf") format("ttf"); }
+
+.header {
+  width: 180px;
+  height: 45px;
+  border-radius: 21px;
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  display: block;
+  right: -1000px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding-top: 10px;
+  box-sizing: border-box;
+  cursor: pointer; }
+
+.header:hover {
+  background: #4e8839;
+  border-color: #6c7f55; }
+
+/* button & footer */
+.button {
+  width: 23.75rem;
+  display: flex; }
+
+.button-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.btn {
+  width: 190px;
+  height: 2.8125rem;
+  background: #629055;
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+.btn:first-child {
+  border-right: 0.125rem solid #9eb79d; }
+
+.btn:hover {
+  background: #477d38; }
+
+.button-item {
+  height: 46px;
+  width: 125px; }
+
+.button-item:first-child {
+  width: 153px; }
+
+.button-item:last-child {
+  width: 100px;
+  border-left: 0.125rem solid #9eb79d; }
+
+.button-item:hover {
+  background: #477d38; }
+
+.footer {
+  display: flex;
+  width: 455px;
+  margin-bottom: 43px;
+  margin-top: 93px;
+  margin-left: -26px; }
+
+.authorise {
+  width: 23.75rem;
+  height: 26.6875rem;
+  color: #ffffff;
+  position: absolute;
+  display: initial;
+  left: 34%;
+  top: 21%;
+  background: #203823;
+  opacity: .8; }
+
+.img {
+  background: #f0efe9;
+  width: 45px;
+  height: 45px;
+  display: inline-grid;
+  border-radius: 2.9375rem;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+
+.img-icon {
+  margin: 14px; }
+
+.authorise-img {
+  width: 146px;
+  height: 146px;
+  margin-left: 118px;
+  margin-top: 40px; }
+
+.authorise-desciption {
+  font-family: "Roboto-Medium";
+  color: #ffffff;
+  height: 52px;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex; }
+
+.authorise-descripton__list {
+  display: list-item;
+  list-style-type: none; }
+
+.authorise-desciption__name {
+  font-size: 28px; }
+
+.authorise-desciption__site {
+  font-size: 16px; }
+
+.rectangle {
+  width: 90px;
+  height: 3px;
+  background: #ffffff;
+  margin-left: 140px;
+  margin-bottom: 25px; }
+
+.authorise-social {
+  display: flex; }
+
+.authorise-social__list {
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 40px; }
+
+.authorise-social__item:hover {
+  background: #4e8839; }
+
+.form-authorise__title {
+  font-size: 1.625rem;
+  font-family: "SansusWebissimo";
+  text-align: center;
+  text-transform: uppercase; }
+
+.form-authorise__coloumn {
+  width: 21.25rem; }
+
+.form-authorise__row {
+  height: 2.8125rem;
+  position: relative;
+  background: #ffffff;
+  border-radius: 2.9375rem;
+  margin-bottom: 1.25rem;
+  left: 1.25rem;
+  color: #b5b8b9;
+  font-family: "Roboto-Regular" 16px; }
+
+.form-authorise__label {
+  text-align: center;
+  font-family: "Roboto-Regular";
+  font-size: 16px; }
+
+.form-authorise__check {
+  flex: 1;
+  margin-left: 8.5625rem; }
+
+.form-authorise__input_checkbox {
+  font-family: "Roboto-Regular"; }
+
+.form-authorise__block {
+  display: flex;
+  margin-left: 7.25rem;
+  font-family: "Roboto-Regular"; }
+
+/* .form-authorise__block {
+   
+} */
+.form-authorise__box {
+  margin-right: 2.5rem;
+  margin-bottom: 25px; }
+
+.form-authorise__label_type_radio:before {
+  content: '';
+  vertical-align: middle;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.125rem;
+  display: inline-block;
+  background-color: #6c9c5a;
+  margin-right: 0.625rem; }
+
+.form-authorise__input_radio {
+  width: 20px;
+  height: 20px; }
+
+.form-authorise__label_type_radio:after {
+  content: '';
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  top: 0.5625rem;
+  left: 0.25rem;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: .3s linear;
+  background-color: #6c9c5a; }
 
 body {
-    margin: 0;
-    padding: 0;
-}
-
+  margin: 0;
+  padding: 0; }
 
 .wrapper {
-    width: 100%;
-    min-height: 100%;
-    position: relative;
-}
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
 
 .container {
-    width: 75rem;
-    height: 43.75rem;
-}
+  width: 75rem;
+  height: 43.75rem; }
 
-
-.login-container {
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/photo-1454111079122-eb76eb2d5754.png );
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    left: 14%;
-    margin: auto;
-  
-}
-
-
+.welcome-container {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/photo-1454111079122-eb76eb2d5754.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 14%;
+  margin: auto; }

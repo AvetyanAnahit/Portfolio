@@ -6,6 +6,16 @@
     display: flex;
 }
 
+.button-list{
+    
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+
+
 .btn {
     width: 190px;
     height: 2.8125rem;
@@ -19,16 +29,25 @@
 .btn:first-child {
     border-right: 0.125rem solid #9eb79d;
 }
+.btn:hover {
+    background: #477d38;
+}
 
 .button-item {
     height: 46px;
+    width: 125px;
 }
 .button-item:first-child {
-    width: 154px;
+    width: 153px;
 }
 .button-item:last-child {
     width: 100px;
     border-left: 0.125rem solid #9eb79d;
+}
+
+
+.button-item:hover {
+    background: #477d38;
 }
 
 .footer {
