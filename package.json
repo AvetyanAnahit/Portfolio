@@ -15,9 +15,12 @@
     "url": "https://github.com/AvetyanAnahit/Portfolio/issues"
   },
   "homepage": "https://github.com/AvetyanAnahit/Portfolio#readme",
-  "description": "",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
-  }
+  },
+  "dependencies": {
+    "gulp-webpack": "^1.5.0"
+  },
+  "description": ""
 }

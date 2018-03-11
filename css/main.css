@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Roboto-Bold";
-  src: url("./Fonts/Roboto-Bold.ttf") format("ttf"), url("./Fonts/Roboto-BoldItalic.ttf") format("ttf"), url("./Fonts/Roboto-Italic.ttf") format("ttf"); }
+  src: url("./Fonts/Roboto-Bold.ttf") format("ttf"); }
 
 @font-face {
   font-family: "Roboto-Light";
@@ -16,11 +16,11 @@
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: url("./Fonts/Roboto-Medium.ttf") format("ttf"), url("./Fonts/Roboto-MediumItalic.ttf") format("ttf"); }
+  src: url("../Fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("./Fonts/Roboto-Regular.ttf") format("ttf"); }
+  src: url("../Fonts/Roboto-Regular.eot") format("eot"), url("../Fonts/Roboto-Regular.svg") format("svg"), url("../Fonts/Roboto-Regular.ttf") format("ttf"), url("../Fonts/Roboto-Regular.woff") format("woff"); }
 
 .header {
   width: 180px;
@@ -52,7 +52,10 @@
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto-Medium";
+  font-size: 16px; }
 
 .btn {
   width: 190px;
@@ -118,8 +121,8 @@
   margin-left: 118px;
   margin-top: 40px; }
 
-.authorise-desciption {
-  font-family: "Roboto-Medium";
+.authorise-descripton {
+  font-family: "Roboto-Regular";
   color: #ffffff;
   height: 52px;
   margin-left: 50px;
@@ -131,7 +134,8 @@
   list-style-type: none; }
 
 .authorise-desciption__name {
-  font-size: 28px; }
+  font-size: 28px;
+  font-family: "Roboto-Regular"; }
 
 .authorise-desciption__site {
   font-size: 16px; }
